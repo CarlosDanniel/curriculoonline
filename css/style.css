@@ -117,19 +117,19 @@ body {
 	display: flex;
 	align-items: center;
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 	body {
-		max-width: 400px;
+		max-width: 600px;
 	}
 	.pag {
 		flex-direction: column;
-		max-width: 400px;
+		max-width: 600px;
 	}
 	.left {
-		width: 400px;
+		width: 100%;
 	}
 	.right {
-		width: 400px;
+		width: 100%;
 	}
 	#corr {
 		flex-direction: column;
@@ -148,5 +148,8 @@ body {
 	}
 	.topo p {
 		margin-left: 10px;
+	}
+	.image {
+		margin-top: 30px;
 	}
 }
