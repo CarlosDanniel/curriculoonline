@@ -144,13 +144,19 @@ body {
 		height: 320px;
 	}
 	#maior_ {
-		height: 290px;
+		height: 340px;
 	}
 	.topo p {
 		margin-left: 10px;
 	}
+	.topo {
+		height: 200px;
+	}
 	.image {
 		margin-top: 30px;
+	}
+	#menor_ {
+		height: 150px;
 	}
 }
 @media (max-width: 400px){
