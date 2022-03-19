@@ -9,7 +9,7 @@ body {
 }
 .left {
 	width: 450px;
-	height: 100hv;
+	height: 100vh;
 	background-image: url('../image/background.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -25,7 +25,7 @@ body {
 	background-image: url('../image/perfil.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 350px;
+	background-size: 500px;
 	border-radius: 125px;
 	margin-bottom: 50px;
 	border: 7px solid white;
@@ -117,13 +117,13 @@ body {
 	display: flex;
 	align-items: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 1030px) {
 	body {
-		max-width: 600px;
+		max-width: 1030px;
 	}
 	.pag {
 		flex-direction: column;
-		max-width: 600px;
+		width: 100%;
 	}
 	.left {
 		width: 100%;
@@ -151,5 +151,43 @@ body {
 	}
 	.image {
 		margin-top: 30px;
+	}
+}
+@media (max-width: 400px){
+	body {
+		max-width: 400px;
+	}
+	.left, .right {
+		width: 100%;
+	}
+	.image {
+		width: 130px;
+		height: 130px;
+		border: 4px solid white;
+		background-size: 250px;
+	}
+	#radjust {
+		height: 180px;
+	}
+	#maior_ {
+		height: 350px;
+	}
+	#res_ {
+		width: 100%;
+		flex-direction: column;
+		height: 100px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	#res_ .desc {
+		width: 300px;
+	}
+	.img_ {
+		flex-direction: column;
+		text-align: center;
+	}
+	#rep_ {
+		margin-top: 50px;
+		width: 100%;
 	}
 }
